@@ -36,6 +36,30 @@ SOC monitoring flagged abnormal activity on a Windows host. Investigated a suspe
 - Policies needed per-system tuning rather than one blanket configuration
 - Layered controls (prevention + detection + response) catch what single-point defenses miss
 
+## Evidence (Screenshots)
+
+A small, representative set of screenshots is included below — enough to show each control actually working, without publishing the full policy/event log set.
+
+### Policy Configuration
+
+![Endpoint Protection policy overview in Sophos Central](sophos-edr-screenshots/01-endpoint-policies-overview.png)
+
+### Web Control
+
+![Web Control blocking a Gambling-category site](sophos-edr-screenshots/02-web-filter-gambling-blocked.png)
+
+### Threat Protection
+
+![Sophos Endpoint Agent notification: PUA detected and cleaned](sophos-edr-screenshots/03-pua-detection-notification.png)
+
+![Sophos Central Report confirming EICAR test file detected and cleaned](sophos-edr-screenshots/06-eicar-malware-cleanup-report.png)
+
+### Data Loss Prevention (DLP)
+
+![DLP policy blocking an HTTP file upload containing sensitive test data](sophos-edr-screenshots/04-dlp-http-post-blocked.png)
+
+![Sophos Central report summarizing DLP policy violations](sophos-edr-screenshots/05-dlp-violations-report.png)
+
 ---
 
 *Project completed as part of OAK Academy's Cybersecurity Engineering program in a controlled training lab environment. Original report written in German; this is an English portfolio summary.*
